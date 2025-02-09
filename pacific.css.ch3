@@ -1,0 +1,65 @@
+/* Global Styles */
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Wrapper to center content */
+#wrapper {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #002171;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation Styles */
+nav {
+    background-color: #BBDEFB;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #002171;
+}
+
+/* Headings */
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    color: #1976D2;
+    font-family: Georgia, serif;
+}
+
+/* Description Terms */
+dt {
+    color: #002171;
+    font-weight: bold;
+}
+
+/* Resort Class */
+.resort {
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+}
