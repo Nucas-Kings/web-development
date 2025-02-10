@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yurts | Pacific Trails Resort</title>
+    <title>Activities | Pacific Trails Resort</title>
     <link rel="stylesheet" href="pacific.css">
 </head>
 <body>
@@ -21,17 +21,17 @@
         </nav>
         
         <main>
-            <section id="yurthero">
-                <h2>Stay in Our Yurts</h2>
-                <p>Our yurts offer a comfortable, rustic experience in the wilderness.</p>
+            <section id="trailhero">
+                <h2>Explore Our Activities</h2>
+                <p>We offer a variety of outdoor activities to make your stay unforgettable!</p>
             </section>
             <section>
-                <h3>What is a Yurt?</h3>
-                <p>A yurt is a traditional circular tent used by nomads in Central Asia.</p>
+                <h3>Hiking Trails</h3>
+                <p>Discover breathtaking views on our guided hiking tours.</p>
             </section>
             <section>
-                <h3>Why Choose a Yurt?</h3>
-                <p>Our yurts provide a unique blend of adventure and comfort in nature.</p>
+                <h3>Canoeing</h3>
+                <p>Enjoy peaceful canoe trips on the nearby rivers.</p>
             </section>
         </main>
         

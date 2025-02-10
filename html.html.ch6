@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yurts | Pacific Trails Resort</title>
+    <title>Pacific Trails Resort</title>
     <link rel="stylesheet" href="pacific.css">
 </head>
 <body>
@@ -21,17 +21,17 @@
         </nav>
         
         <main>
-            <section id="yurthero">
-                <h2>Stay in Our Yurts</h2>
-                <p>Our yurts offer a comfortable, rustic experience in the wilderness.</p>
+            <section id="homehero">
+                <h2>Welcome to Pacific Trails Resort</h2>
+                <p>Enjoy the natural beauty of the Pacific Northwest!</p>
             </section>
             <section>
-                <h3>What is a Yurt?</h3>
-                <p>A yurt is a traditional circular tent used by nomads in Central Asia.</p>
+                <h3>Our Yurts</h3>
+                <p>Stay in our comfortable yurts surrounded by nature.</p>
             </section>
             <section>
-                <h3>Why Choose a Yurt?</h3>
-                <p>Our yurts provide a unique blend of adventure and comfort in nature.</p>
+                <h3>Activities</h3>
+                <p>Explore a variety of outdoor activities.</p>
             </section>
         </main>
         
@@ -41,4 +41,3 @@
     </div>
 </body>
 </html>
-
