@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pacific Trails Resort</title>
+    <link rel="stylesheet" href="pacific.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1>Pacific Trails Resort</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="yurts.html">Yurts</a></li>
+                <li><a href="activities.html">Activities</a></li>
+            </ul>
+        </nav>
+        <div id="homehero"></div> <!-- Coast Image Background -->
+        <main>
+            <h2>Enjoy Nature at Pacific Trails Resort</h2>
+            <p>Discover the beauty of the Pacific Coast at our scenic resort. Experience comfort and adventure like never before.</p>
+        </main>
+        <footer>
+            <p>&copy; 2025 Pacific Trails Resort</p>
+        </footer>
+    </div>
+</body>
+</html>
