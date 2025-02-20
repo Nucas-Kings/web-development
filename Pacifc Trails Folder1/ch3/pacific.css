@@ -1,0 +1,67 @@
+/* Global Styles */
+body {
+    background-color: #FFFFFF;
+    color: #666666;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+/* Centered Page Layout */
+#wrapper {
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Header */
+header {
+    background-color: #002171;
+    color: #FFFFFF;
+    font-family: Georgia, serif;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    font-weight: bold;
+    background-color: #BBDEFB;
+    text-align: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #002171;
+    margin: 0 15px;
+}
+
+/* Main Content */
+h1 {
+    font-size: 200%;
+}
+
+h2 {
+    color: #1976D2;
+    font-family: Georgia, serif;
+}
+
+dt {
+    color: #002171;
+    font-weight: bold;
+}
+
+/* Custom Class */
+.resort {
+    color: #1976D2;
+    font-size: 1.2em;
+}
+
+/* Footer */
+footer {
+    font-size: 0.70em;
+    font-style: italic;
+    text-align: center;
+    padding: 10px;
+    background-color: #BBDEFB;
+    margin-top: 20px;
+}

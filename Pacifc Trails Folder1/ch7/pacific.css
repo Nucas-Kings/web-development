@@ -1,0 +1,148 @@
+/* BODY Styling */
+body {
+    margin: 0;
+    background-color: #90C7E3;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Wrapper Styling */
+  #wrapper {
+    background: none;
+  }
+  
+  /* Header Styling */
+  header {
+    padding: 1em;
+  }
+  
+  header h1 {
+    font-size: 1.5em;
+    padding: 0;
+    letter-spacing: normal;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    text-align: center;
+    background-color: #FFFFFF;
+  }
+  
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    padding: .5em 1em;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 1em;
+  }
+  
+  /* Section Styling */
+  section {
+    padding: .5em;
+  }
+  
+  /* Hero Image Styles */
+  #homehero, #yurthero, #trailhero {
+    background-size: 200% 100%;
+    background-position: center center;
+    height: 300px;
+    background-repeat: no-repeat;
+  }
+  
+  /* Footer Styling */
+  footer {
+    padding-left: 0;
+  }
+  
+  /* Phone number styling */
+  #mobile {
+    display: inline;
+  }
+  
+  #desktop {
+    display: none;
+  }
+  
+  /* Media Query for Medium Devices (600px and up) */
+  @media (min-width: 600px) {
+    /* Header font size and spacing */
+    header h1 {
+      font-size: 2em;
+      letter-spacing: .25em;
+    }
+  
+    /* Navigation bar layout */
+    nav ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      padding-right: 2em;
+    }
+  
+    nav li {
+      width: 12em;
+      border-bottom: none;
+    }
+  
+    /* Content Sections */
+    section {
+      padding: 2em;
+    }
+  
+    /* Flex Layout for Content */
+    #flow {
+      display: flex;
+      flex-direction: row;
+      gap: 2em;
+    }
+  
+    /* Hide mobile phone number */
+    #mobile {
+      display: none;
+    }
+  
+    /* Show desktop phone number */
+    #desktop {
+      display: inline;
+    }
+  
+    /* Hero Image styling */
+    #homehero, #yurthero, #trailhero {
+      background-size: 100% 100%;
+    }
+  }
+  
+  /* Media Query for Large Devices (1024px and up) */
+  @media (min-width: 1024px) {
+    /* Body Styling for Large Layout */
+    body {
+      background: linear-gradient(to bottom, #FFFFFF 20%, #90C7E3 60%, #FFFFFF 100%);
+    }
+  
+    /* Navigation Layout */
+    nav ul {
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    /* Wrapper width */
+    #wrapper {
+      width: 80%;
+      margin: auto;
+    }
+  }
+  

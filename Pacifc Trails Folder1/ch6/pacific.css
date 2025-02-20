@@ -1,0 +1,113 @@
+/* Universal selector for box-sizing */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Wrapper for background */
+  #wrapper {
+    background: linear-gradient(to bottom, #FFFFFF, #90C7E3);
+  }
+  
+  /* Body Styling */
+  body {
+    background-color: #EAEAEA;
+    background-image: none;
+    background-repeat: no-repeat;
+    margin: 0;
+  }
+  
+  /* Header Styling */
+  header {
+    height: 120px;
+    background-color: #90C7E3;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    letter-spacing: 0.25em;
+    color: #FFFFFF;
+    margin: 0;
+  }
+  
+  header a:link,
+  header a:visited {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  
+  header a:hover {
+    color: #90C7E3;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    float: left;
+    width: 160px;
+    padding: 0;
+    font-size: 1.2em;
+    position: fixed;
+    background-color: #FFFFFF;
+  }
+  
+  nav a:link {
+    color: #5C7FA3;
+  }
+  
+  nav a:visited {
+    color: #344873;
+  }
+  
+  nav a:hover {
+    color: #A52A2A;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding-left: 1em;
+  }
+  
+  nav li {
+    margin-bottom: 10px;
+  }
+  
+  /* Main Content Styling */
+  main {
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  #homehero, #yurthero, #trailhero {
+    margin-left: 170px;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #FFFFFF;
+    margin-left: 170px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Section Styling */
+  section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 20px;
+  }
+  
+  /* Link Styling in Footer */
+  footer a:link,
+  footer a:visited {
+    color: #344873;
+    text-decoration: none;
+  }
+  
+  footer a:hover {
+    color: #A52A2A;
+  }
+  
