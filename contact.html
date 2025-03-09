@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic Page Settings and SEO -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact Akinseye Emmanuel for photography inquiries and commissions.">
+  <meta name="keywords" content="Photography, Contact, Portfolio, Inquiry">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Photography Portfolio</title>
+  <!-- External CSS File -->
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // JavaScript function to process the contact form submission
+    function processForm(event) {
+      event.preventDefault();
+      var name = document.getElementById('name').value;
+      var email = document.getElementById('email').value;
+      var message = document.getElementById('message').value;
+      alert("Thank you, " + name + "! Your message has been received.");
+      // Reset the form
+      document.getElementById('contactForm').reset();
+    }
+  </script>
+</head>
+<body>
+  <!-- Header Section with Logo and Navigation -->
+  <header>
+    <div class="logo">
+      <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mP8/5+hHgAHggJ/P8mP8gAAAABJRU5ErkJggg==" alt="Portfolio Logo" />
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="about.html">About Me</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <!-- Main Content -->
+  <main>
+    <h1>Contact Me</h1>
+    <form id="contactForm" onsubmit="processForm(event)" action="YOUR_API_URL" method="POST">
+      <!-- Hidden field to specify the recipient email -->
+      <input type="hidden" name="recipient" value="nucaskings@gmail.com">
+      
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <button type="submit">Send Message</button>
+    </form>
+  </main>
+  
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 Akinseye Emmanuel. All rights reserved.</p>
+  </footer>
+</body>
+</html>

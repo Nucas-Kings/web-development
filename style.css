@@ -1,0 +1,147 @@
+/* General Reset */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: black; /* Set background color to black for all elements */
+}
+
+/* Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #fff; /* Change text color to white for contrast */
+  background-color: black; /* Set body background color to black */
+}
+
+/* Header Styling */
+header {
+  background-color: black; /* Set header background color to black */
+  color: #fff; /* Ensure text is visible */
+  padding: 1rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+header .logo img {
+  height: 50px;
+  margin: 0 20px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0 20px;
+}
+nav ul li {
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #fff; /* Set navigation links to white */
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+nav ul li a.active {
+  text-decoration: underline;
+}
+
+/* Main Content Styling */
+main {
+  padding: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section Styling */
+.hero {
+  text-align: center;
+  padding: 50px 0;
+  background-color: black; /* Set hero section background to black */
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #fff; /* Ensure heading text is white */
+  background-color: black; /* Set heading background to black */
+  padding: 10px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Section Headings Styling */
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff; /* Set section headings to white */
+  background-color: black; /* Set section heading background to black */
+  padding: 8px;
+  border-radius: 5px;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* About Section Styling */
+.about {
+  margin: 20px 0;
+}
+
+/* Gallery Styling */
+.featured .gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.featured .gallery img {
+  width: 30%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 5px;
+}
+
+/* Testimonials Section Styling */
+.testimonials {
+  margin: 20px 0;
+}
+.testimonials blockquote {
+  background-color: black; /* Set blockquote background to black */
+  border-left: 10px solid #fff; /* White border for contrast */
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  color: #fff; /* Set text color to white */
+}
+.testimonials blockquote p {
+  display: inline;
+}
+
+/* Footer Styling */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: black; /* Set footer background to black */
+  color: #fff; /* Set footer text to white */
+  margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .featured .gallery img {
+    width: 80%;
+  }
+}
+
+
+
+
+
+
